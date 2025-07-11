@@ -1,12 +1,10 @@
 # Resume → Portfolio Website Generator
 
-Transform your PDF resume into a stunning portfolio website in seconds! This Flask-based application uses AI to extract information from your resume and generates a beautiful, responsive portfolio website ready for deployment.
+Transform your PDF resume into a stunning portfolio website in seconds! This Flask-based application extracts information from your resume and generates a beautiful, responsive portfolio website ready for deployment.
 
 ## 🌟 Features
 
 - **PDF Resume Upload**: Upload your resume in PDF format
-- **AI-Powered Extraction**: Automatically extract contact info, skills, experience, and projects
-- **GPT Enhancement**: Improve content quality with OpenAI's GPT
 - **Modern Design**: Bootstrap-powered responsive design
 - **GitHub Pages Ready**: Download and deploy to GitHub Pages instantly
 - **Mobile Responsive**: Looks great on all devices
@@ -17,7 +15,6 @@ Transform your PDF resume into a stunning portfolio website in seconds! This Fla
 ### Prerequisites
 
 - Python 3.7+
-- OpenAI API key (optional, for enhanced content generation)
 
 ### Installation
 
@@ -38,18 +35,13 @@ Transform your PDF resume into a stunning portfolio website in seconds! This Fla
    pip install -r requirements.txt
    ```
 
-4. **Set up environment variables (optional)**
-   ```bash
-   # Create a .env file in the project root
-   echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
-   ```
 
-5. **Run the application**
+4. **Run the application**
    ```bash
    python app.py
    ```
 
-6. **Open in browser**
+5. **Open in browser**
    ```
    http://localhost:5000
    ```
