@@ -79,22 +79,12 @@ resume-portfolio-generator/
 
 ## 🔧 Usage
 
-### Basic Usage
 
 1. **Upload Resume**: Visit the homepage and upload your PDF resume
 2. **Generate Portfolio**: Click "Generate Portfolio" and wait for processing
 3. **Preview**: View your generated portfolio in the browser
 4. **Download**: Download the HTML file for deployment
 
-### Advanced Usage
-
-#### With OpenAI API Key
-
-Set your OpenAI API key in a `.env` file to enable:
-- Enhanced content generation
-- Professional summary improvement
-- Better skill categorization
-- Achievement highlighting
 
 #### Customization
 
@@ -130,12 +120,6 @@ The generated portfolio includes:
 - Fallback to `PyPDF2` for compatibility
 - Intelligent parsing of resume sections
 
-### AI Enhancement
-
-- OpenAI GPT-3.5 for content improvement
-- Professional summary generation
-- Skill categorization
-- Achievement extraction
 
 ### Frontend
 
@@ -162,19 +146,6 @@ Modify the generated HTML to:
 - Add custom sections
 - Update contact information
 
-## 🔒 Security
-
-- File upload validation
-- Secure filename handling
-- Temporary file cleanup
-- Input sanitization
-
-## 📊 Performance
-
-- Optimized HTML generation
-- Minimal external dependencies
-- Fast loading times
-- SEO-friendly structure
 
 ## 🤝 Contributing
 
@@ -184,9 +155,6 @@ Modify the generated HTML to:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 🐛 Troubleshooting
 
@@ -197,10 +165,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Try a different PDF format
 - Check if the PDF is password-protected
 
-**OpenAI API errors**
-- Verify your API key is correct
-- Check your API quota and billing
-- The app works without the API key (with basic features)
 
 **Upload failures**
 - Check file size (max 16MB)
@@ -226,8 +190,8 @@ If you encounter issues:
 
 ## 📞 Contact
 
-- **GitHub**: [Your GitHub Profile](https://github.com/Anurag-Ghosh555)
-- **Email**: your.ghoshanurag238@gmail.com.com
+- **GitHub**:https://github.com/Anurag-Ghosh555
+- **Email**: ghoshanurag238@gmail.com
 
 ---
 
